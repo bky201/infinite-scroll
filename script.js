@@ -1,4 +1,4 @@
-import * as config from "./config.js";
+// import * as config from "./config.js";
 
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
@@ -12,7 +12,7 @@ let initialCount = 5;
 
 // Unsplash API
 
-const apiKey = config.API_KEY;
+const apiKey = "ujkSrYO5lMNPzcoa_KgrWodymBRXhQjEjjq21-tlsHo";
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${initialCount}`;
 
 
